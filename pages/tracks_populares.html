@@ -6,119 +6,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tracks populares | ABE MUSIX corp </title>
     <link rel="shortcut icon" href="../ASSETS/img/ondas-sonoras.png" type="image/x-icon">
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--CDN BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--CDN ANIMATED CSS-->
+    <link   rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--MI CSS-->
     <link rel="stylesheet" href="../css/style.css">
-    <!--FONTAWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-
-
 </head>
 
 
 <body>
-    <header>
-        <div class="div_promo_header">
-            <h2 class="promo_header">Escúchanos acá</h2>
-        
-            <a href="https://soundcloud.com/abemusix" target="_blank"><i class="fa-brands fa-soundcloud fa-4x"></i></a>
-        </div>
-        <br>
+    <div class="contenedor">
+        <header class="encabezado">
+                <nav class="navbar navbar-expand-md bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"><img  class= "logo" src="../ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>   
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item" >
+                                    <a  class="nav-link" href="../pages/aprende aca.html"><b>APRENDÉ </b></a>
+                                </li>
+                                <li class="nav-item" >
+                                    <a  class="nav-link active" aria-current="page" href="../pages/tracks_populares.html"><b>TRACKS </b></a>
+                                </li>
+                                <li class="nav-item" >
+                                    <a  class="nav-link" href="../pages/contactanos.html"><b>CONTÁCTANOS</b></a>
+                                </li>
+                                <li class="nav-item" >
+                                    <a class="nav-link"  href="../pages/sobre_nosotros.html"><b>NOSOTROS</b></a>
+                                </li>
 
- 		<a href="../index.html"><img class=logo src="../ASSETS/img/ABE LOGO.jpg" alt="" ></a>
-
-
-
-            <nav class="navegacion">
-                <ul>
+                                <li class="nav-item" >
+                                    <h3 class="promo_header"> Nos podes escuchar en:</h3>
+                                </li>
+                                <li class="animate__animated animate__heartBeat" class="nav-item" >
+                                    <a class="nav-link" href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-4x" ></i></a>
+                                </li>
+                                <li class="animate__animated animate__heartBeat" class="nav-item" >
+                                    <a class="nav-link" href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-4x" ></i></a>
+                                </li>
+                            </ul>
+                                
+                                
+                            
+                            
+                        </div>
+                    </div>
+                </nav>
+                
+                
+            
+        </header>
+        <main class="principal" >
+            <section>
+                <div class="container"  >  
+                    <h1 class="titulo2">   
+                        Escuchá nuestros mejores tracks
+                    </h1>
+                    <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/dXR7NxvXhx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/Fa_1rj5CPgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/S6p77aS_VNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/stpHfkhLrXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/7hmjLHLbxPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                
+                </div>   
+                
+                
+            </section>
+ 
     
-                    <a href="../index.html"><li>Inicio</li></a>
-                    <a href="./aprende aca.html"><li>Aprendé acá</li></a>
-                    <a href="./tracks_populares.html"><li>Tracks populares</li></a>
-                    <a href="./contactanos.html"><li>Contáctanos</li></a>
-                    <a href="./sobre_nosotros.html"><li>Sobre nosotros</li></a>
-
-                </ul>
-            </nav>
-
-    </header>
-
-    <main class="fondo_color2">
-        <br>
-        <br>
-        <h1 class="titulo2">   
-            Escuchá nuestros mejores tracks
-        </h1>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="segui">
-            <h2><a href="https://www.instagram.com/leroybsh/" target="_blank" >Seguí a @Leroy bsh</a></h2>
-            <h2><a href="https://www.instagram.com/san7ea/" target="_blank">Seguí a @San Tea</a></h2>
-            <h2><a href="https://www.instagram.com/errekha_/" target="_blank">Seguí a @Errekha</a></h2>
-            <h2><a href="https://www.instagram.com/giannicostanti/" target="_blank">Seguí a @GianniCostanti</a></h2>
-            <h2><a href="https://www.instagram.com/fpapasergio/" target="_blank">Seguí a @Efe Pe</a></h2>
-
-        </div>
+            
+        </main>
         
-        <br>
-        <br>
-        <br>   
+        <footer class="footer">
+            <p>
+                © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
+                ABE MUSIX corp™ supported by:
+            </p> 
+            <div class="carruselfooter">
+                <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div  class="carousel-item active" data-bs-interval= "2000">
+                            <img  src="../ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
+                        </div>
+                        <div  class="carousel-item" data-bs-interval= "2000">
+                            <img  src="../ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
+                        </div>
+                        <div class="carousel-item" data-bs-interval= "2000" >
+                            <img  src="../ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
+                        </div>
+                    </div>
+                </div>
+            </div>    
 
-        <section class="galeria">
-           
-            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Fa_1rj5CPgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/S6p77aS_VNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/n_ebkAXINt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-           
-        </section>
-        <br>
-        <br>
-        <br> 
-        <section class="galeria2">
-            <iframe class="video" width="40%" height="500px" 
-            scrolling="no" frameborder="no" allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1395959644&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            <div class="video_sc"><a class="video_sc_link" href="https://soundcloud.com/abemusix" title="ABE MUSIX CORP™" target="_blank">ABE MUSIX CORP™</a> · <a class="video_sc_link" href="https://soundcloud.com/abemusix/abe-dia-y-noche-prod-by-abe-musix" title="ABE - Día y noche (prod. by ABE MUSIX)" target="_blank">ABE - Día y noche (prod. by ABE MUSIX)</a></div>
-            <iframe class="video" width="40%" height="500px" 
-            scrolling="no" frameborder="no" allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1300944220&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            <div class="video_sc"><a class= "video_sc_link" href="https://soundcloud.com/abemusix" title="ABE MUSIX CORP™" target="_blank" >ABE MUSIX CORP™</a> · <a class="video_sc_link" href="https://soundcloud.com/abemusix/vuelve-finish" title="ABE - Vuelve" target="_blank">ABE - Vuelve</a></div>
-            <iframe class="video" width="40%" height="500px" 
-            scrolling="no" frameborder="no" allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1330631773&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            <div class="video_sc"><a class="video_sc_link" href="https://soundcloud.com/abemusix" title="ABE MUSIX CORP™" target="_blank">ABE MUSIX CORP™</a> · <a class="video_sc_link" href="https://soundcloud.com/abemusix/me-perdi-en-la-ciudad-leroy-prod-by-abe" title="Leroy bsh - Me perdi en la ciudad prod. by ABE" target="_blank">Leroy bsh - Me perdi en la ciudad prod. by ABE</a></div>
-            <iframe class="video" width="40%" height="500px"
-            scrolling="no" frameborder="no" allow="autoplay" 
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1306448134&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            <div class="video_sc"><a class="video_sc_link" href="https://soundcloud.com/abemusix" title="ABE MUSIX CORP™" target="_blank">ABE MUSIX CORP™</a> · <a class="video_sc_link" href="https://soundcloud.com/abemusix/efe-pe-roadrunner-freestyle-rec-3" title="Efe Pe - Roadrunner (freestyle rec #3)" target="_blank" >Efe Pe - Roadrunner (freestyle rec #3)</a></div>
-            <!--La clase "video_sc" y "video_sc_link" eran originalmente style's que incorporaba el código que extraje desde el soundcloud, y lo pasé al css como class-->
-        </section>
-  
-
-    </main>
-    
-    <footer class="pie">
-        <br>
-        <br>
-        <a href="https://www.beatstars.com/abemusix" target="_blank"> <h3 class="beats">BEATS GRATUITOS HACIENDO CLICK ACÁ!</h3></a>   
-        <br>
-        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
-        <a href="https://www.instagram.com/abemusix/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        <br>
-        <br>
-        <p>© 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
-            ABE MUSIX corp™ supported by:
-        </p> 
-            <br>   
-
-            <img src="../ASSETS/img/arturia.jpg" >
-            <img src="/ASSETS/img/audiotech.jpg">
-            <img src="/ASSETS/img/pioner.jpg">
+        </footer>            
         
+    </div>                
+        <!--CDN BOOTSTRAP JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-
-    </footer>  
 </body>
 </html>
