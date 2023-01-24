@@ -134,7 +134,7 @@ box-sizing: border-box;
     flex-direction: row;
     justify-content: center;
     
-
+    padding-bottom: 20px;
 
     background-color: rgb(168, 46, 122);
 
@@ -143,19 +143,6 @@ box-sizing: border-box;
 }
 
 
-.fotos_cursos{
-    height:220px;
-    width: 280px;
-
-}
-
-
-.img_escuela{
-    width: 640px;
-    height: 400px;  
-    padding-bottom: 50px;
-
-}
 
 .titulo2{
 
@@ -169,34 +156,14 @@ box-sizing: border-box;
 
 }
 
-.video{
-    margin: 50px;
-    margin-left: 210px;
-    border-radius: 20px;
+
+
+.img_escuela{
+    width: 640px;
+    height: 400px;  
+    padding-bottom: 50px;
 
 }
-
-.video_sc{
-
-    font-size: 10px;
-    color: rgb(66, 63, 63);
-    line-break: anywhere;
-    word-break: normal;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-
-    font-weight: 100;
-
-}
-
-.video_sc_link{
-    color: rgb(66, 63, 63);
-    text-decoration: none;
-
-
-}
-
 
 
 .galeria2{
@@ -214,7 +181,7 @@ box-sizing: border-box;
 .form_contac{
     grid-area: info;
     text-align: center;
-    padding: 50px;
+    padding: 35px;
 
     background-color: rgb(168, 46, 122);
 
@@ -229,86 +196,18 @@ box-sizing: border-box;
 
 }
 
-.fondo2{
-    
-    background-image: url("../ASSETS/img/LOGO\ 2.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.eleginos{
+    list-style-type: square;
+    font-size: 20px;
 }
-
-
-
-.div_sobre_nosotros{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: right;
-    padding-top: 40px;
-    width: 100%;
-    height: auto;
-
-    margin-bottom: 50px;
-
-
-    color: rgb(172, 165, 165);
-
-
-
-}
-
-.titulos_sn{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    color: rgb(168, 46, 122);
-
-}
-
-.img_nosotros{
-    height: 350px;
-    width: 31%;  
-    border-radius: 35px;
-    margin: 5px;
-    opacity: 20%;
-
-
-}
-
-.img_nosotros2{
-    height: 350px;
-    width: 31%;  
-    border-radius: 35px;
-    margin: 5px;
-    opacity: 30%;
-
-}
-
-.img_nosotros3{
-    height: 350px;
-    width: 31%;  
-    border-radius: 35px;
-    margin: 5px;
-    margin-left: 5px;
-    opacity: 20%;
-    
-
-}
-
-.eleginos_titulo{
-    color: rgb(168, 46, 122);
-    text-align: center;
-    font-size: 60px;
-
-}
-
 
 .beats{
+    display: inline-block;
+    margin: 50px;
+    padding: 20px;
     color: rgb(168, 46, 122);
-    text-align: center; 
+    text-decoration: none;
+    border-style:dashed
 
 
 }
@@ -344,7 +243,7 @@ box-sizing: border-box;
     .logo{
         
         height: 15vh;
-        width: 25vw; 
+        width: 28vw; 
     }
     
 
