@@ -6,196 +6,320 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Aprendé acá | ABE MUSIX corp </title>
     <link rel="shortcut icon" href="../ASSETS/img/ondas-sonoras.png" type="image/x-icon">
-    <!--MI CSS-->
-    <link rel="stylesheet" href="../css/style.css">
     <!--FONTAWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!--CDN BOOTSTRAP CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <!--CDN ANIMATED CSS-->
+    <link   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--MI CSS-->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 
 <body>
-    <header>
-        <div class="div_promo_header">
-            <h2 class="promo_header">Escúchanos acá</h2>
-        
-            <a href="https://soundcloud.com/abemusix" target="_blank"><i class="fa-brands fa-soundcloud fa-4x"></i></a>
-        </div>
-        <br>
+    <div class="contenedor">
+        <header class="encabezado">
+            <nav class="navbar navbar-expand-md bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img  class= "logo" src="../ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>   
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item" >
+                                <a  class="nav-link active" aria-current="page" href="../pages/aprende aca.html"><b>APRENDÉ </b></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a  class="nav-link " href="../pages/tracks_populares.html"><b>TRACKS </b></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a  class="nav-link" href="../pages/contactanos.html"><b>CONTÁCTANOS</b></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link"  href="../pages/sobre_nosotros.html"><b>NOSOTROS</b></a>
+                            </li>
 
- 		<a href="../index.html"><img class=logo src="../ASSETS/img/ABE LOGO.jpg" alt="" ></a>
-
-
-
-            <nav class="navegacion">
-                <ul>
-    
-                    <a href="../index.html"><li>Inicio</li></a>
-                    <a href="./aprende aca.html"><li>Aprendé acá</li></a>
-                    <a href="./tracks_populares.html"><li>Tracks populares</li></a>
-                    <a href="./contactanos.html"><li>Contáctanos</li></a>
-                    <a href="./sobre_nosotros.html"><li>Sobre nosotros</li></a>
-
-                </ul>
-            </nav>
-
-    </header>
-
-    <main class="fondo_color2">
-        <br>
-        <br>
-        <h1 class="titulo2">   
-            En nuestra escuela podés aprender a producir desde cero!
-        </h1>
-        <br>
-        <br>
-
-        <section class="section_escuela">
-            <div class="div_escuela_texto">
-            </h2>
-                En ABE MUSIX desarrollarás las capacidades cognitivas, técnicas y prácticas para
-                la confección de hits musicales, en cualquiera de nuestros cursos divididos en géneros
-                y niveles.
-                Mirá los siguientes videos informativos y elegí el que mejor se adapta a vos.
-                <br>
-                Te esperamos en ABE MUSIX: Escuela de producción.
-                <br>
-                <br>
-                <img class="img_escuela" src="../ASSETS/img/escuela.jpg" alt="">
-            <h2>
-            </div>  
-            <div class="div_fotos_cursos">
-                <img class="fotos_cursos1" src="../ASSETS/img/fl.jpg">
-                <img class="fotos_cursos2" src="../ASSETS/img/ableton.jpg">
-                <img class="fotos_cursos3" src="../ASSETS/img/prootols.jpg">
-                
-            </div>
-
-            <div class="div_cursos">
-                <a href="https://www.youtube.com/watch?v=hd86mDEbVuY" target="_blank">
-                <h2 class="cursos">
-                    MÚSICA URBANA (FL Studio)
-                    <i class="fa-sharp fa-solid fa-circle-play"></i>
-                </h2>
-            </a>
-            <a href="https://www.youtube.com/watch?v=bOxPpoQve24" target="_blank">
-                <h2 class="cursos">
-                    MÚSICA ELECTRÓNICA (Ableton Live)
-                    <i class="fa-sharp fa-solid fa-circle-play"></i>
-                </h2>
-            </a>
-            <a href="https://www.youtube.com/watch?v=XW8LoChNM9I" target="_blank">
-                <h2 class="cursos">
-                    MÚSICA INSTRUMENTALISTA (Pro Toools)
-                    <i class="fa-sharp fa-solid fa-circle-play"></i>
-                </h2>
-            </a>
-            </div>  
-        </section>
-
-        <section>
-            <div class="form_esc">
-                <form action="" id="id_form">
-                    <fieldset>
-                        <legend>Aprendé con nosotros!/Learn with us!</legend>
-                        <br>
-                        <label for="">Nombre/Name</label>
-                        <input type="text" name="Nombre" required>
-                    <br>
-                    <br>
-                        <label for="">Apellido/Surname</label>
-                        <input type="text" name="Apellido" required>
-                    <br>
-                    <br>
-                        <label for="id_masc">Masculino/Male</label>
-                        <input type="radio" name="sexo" id="id_masc">
-                    <br>
-                    <br>
-                        <label for="id_fem">Femenino/Female</label>
-                        <input type="radio" name="sexo" id="id_fem">
-                    <br>
-                    <br>
-                        <label for="">E-mail/Adress</label>
-                        <input type="email" required>
-                    <br>
-                    <br>
-                        <label for="">Edad/Age</label>
-                        <input type="number" name="edad" required>
-                    <br>
-                    <br>
-                        <label for="">Nacionalidad/Nacionality</label>
-                        <input type="text">
-                    <br>
-                    <br>
-                        <label for="">¿Qué curso?/What course?</label>
-                    <br>
-                    <br>
-                        <label for="id_elec">Electrónica/Electronic</label>
-                        <input type="radio" name="que" id="id_elec">
-                    
-                        <label for="id_urb">Urbana/Urban</label>
-                        <input type="radio" name="que" id="id_urb">
+                            <li class="nav-item" >
+                                <h3 class="promo_header"> Nos podes escuchar en:</h3>
+                            </li>
+                            <li class="animate__animated animate__heartBeat" class="nav-item" >
+                                <a class="nav-link" href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-4x" ></i></a>
+                            </li>
+                            <li class="animate__animated animate__heartBeat" class="nav-item" >
+                                <a class="nav-link" href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-4x" ></i></a>
+                            </li>
+                        </ul>
+                            
+                            
                         
-                        <label for="id_inst">Instrumentalista/Instrumentalist</label>
-                        <input type="radio" name="que" id="id_inst">
-                        <br>
-                        <br>
-                        <label>¿Cuál es tu nivel?/What's your level?</label>
-                        <br>
-                        <br>
-                        <label for="id_prin">Principiante/Beginner</label>
-                        <input type="radio" name="cual" id="id_prin">
-                    
-                        <label for="id_inter">Intermedio/Intermediate</label>
-                        <input type="radio" name="cual" id="id_inter">
-                    
-                        <label for="id_avan">Avanzado/Advanced</label>
-                        <input type="radio" name="cual" id="id_avan">
-                        <br>
-                        <br>          
-                        <button type="submit">Enviar/Submit</button>
-                        <button type="reset">Reset</button>
-                </fieldset>
-
-                </form>
+                        
+                    </div>
+                </div>
+            </nav>
+            
+            
         
-            </div>
+        </header>
+        <main class="principal" class="fondo_color2">
+            <br>
+            <br>
+            <h1 class="titulo2">   
+                En nuestra escuela podés aprender a producir desde cero!
+            </h1>
+            
+                <div class="container">
+                    <section> 
+                        <div class="row justify-content-center align-content-center">
+                            <div class="col-xs-12 col-md-6 col-lg-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="fotos_cursos" src="../ASSETS/img/fl.png" class="card-img-top" alt="FL Studio">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CURSO DE MÚSICA URBANA</h5>
+                                            <p class="card-text">Curso de música urbana utilizando FL Studio. Nivel: Inicial, Intermedio, Avanzado.
+                                                                Aprenderás lo necesario para realizar hits de hip hop, reggaeton, trap, entre otros.
+                                                                <br>El curso incluye: <br>
+                                                            <ul>
+                                                                <li>Conceptos musicales</li>
+                                                                <li>Herramientas de FL y samples/ drums kit.</li>
+                                                                <li>Grabación de voces</li>
+                                                                <li>Mix y mastering profesional.</li>
+                                                                en sus 3 niveles.
+                                                                
+                                                            </ul>
+                                                                <br>
+                                                                <br>
+                                                                <br>
+                                                                <br>
+                                                                <br>
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Conocé más </a>
+                                        </div>
+                                    </div>
+                            </div>         
+                            <div class="col-xs-12 col-md-6 col-lg-4">        
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="fotos_cursos" src="../ASSETS/img/ableton.png" class="card-img-top" alt="ABLETON Live">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CURSO DE MÚSICA ELECTRÓNICA</h5>
+                                            <p class="card-text">
+                                                Curso de música electrónica utilizando ABLETON Live. Nivel: Inicial, Intermedio, Avanzado.
+                                                                Aprenderás lo que se necesita para producir tracks, loops y samples de house, EDM, dubstep, y variados géneros que conforman la musica electrónica moderna.
+                                                                <br>El curso incluye: <br>
+                                                            <ul>
+                                                                <li>Conceptos musicales.</li>
+                                                                <li>Herramientas de ABLETON y samples/ drums kit.</li>
+                                                                <li>Mix y mastering profesional.</li>
+                                                                <li>Noción de marketing para vender tus producciones.</li>
+                                                                en sus 3 niveles.
+                                                            </ul>    
+                                                            <br>
+                                                            
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Conocé más</a>
+                                        </div>
+                                    </div>
+                            
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-4"> 
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="fotos_cursos" src="../ASSETS/img/prootols.jpg" class="card-img-top" alt="PRO TOOLS">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">CURSO DE MÚSICA INSTRUMENTALISTA</h5>
+                                            <p class="card-text">
+                                                Curso de música instrumentalista utilizando PRO TOOLS. Nivel: Inicial, Intermedio, Avanzado.
+                                                Aprenderás lo que se necesita para grabar y producir artistas solistas, duos o bandas, en cualquier género que requiera grabación.
+                                                <br>El curso incluye: <br>
+                                                <ul>
+                                                    <li>Conceptos musicales.</li>
+                                                    <li>Herramientas de PRO TOOLS.</li>
+                                                    <li>Mix y mastering profesional.</li>
+                                                    <li>Grabación de voces e instrumentos.</li>
+                                                    <li>Información personalizada sobre acustización de salas.</li>
+                                                    en sus 3 niveles.
+                                                </ul>
+                                                <br>
+                                                
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Conocé más </a>
+                                        </div>
+                                    </div>
+                            
+                            </div>
+                        </div>
+                    </section>
+                    <br><br><br>        
+                    <section>
+                            <div class="row">
+                                <div class="col-12 col-lg-6 text-center">
+                                    <div class="escuela_texto">
+                                        <p>
+                                            En ABE MUSIX desarrollarás las capacidades cognitivas, técnicas y prácticas para
+                                            la confección de hits musicales, en cualquiera de nuestros cursos divididos en géneros
+                                            y niveles.
+                                            Mirá los videos informativos y elegí el que mejor se adapta a vos.
+                                            <br>
+                                            Te esperamos en ABE MUSIX: Escuela de producción.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 align-content-center justify-content-center">
+                                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="img_escuela" src="../ASSETS/img/carrusel escuela1.jpg" width="100%" height="50%">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img_escuela" src="../ASSETS/img/carrusel escuela2.jpg" width="100%" height="50%">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img_escuela" src="../ASSETS/img/carrusel escuela3.jpg" width="100%" height="50%">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img_escuela" src="../ASSETS/img/carrusel escuela4.jpg" width="100%" height="50%">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img_escuela" src="../ASSETS/img/carrusel escuela5.jpg" width="100%" height="50%">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                            
+                                
+                                
+                                </div>
+                            
+                            
+                            </div>
+                        </div>
+                    </section>  
 
-      
+                    <section class="form_esc">
+                        <div class="container">
+                        
+                            <form id="id_form" class="row">
+                                <fieldset>
+                                    <br>
+                                    <legend>Aprendé con nosotros!/Learn with us!</legend>
+                                    <br>
+                                    <br>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Nombre/Name">
+                                    </div>
+                                    <br>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Apellido/Surname">
+                                    </div>
+                                    <br>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="E-mail">
+                                    </div>
+                                    <br>
+                                    <div class="col-md-6">
+                                        <input type="number" class="form-control" placeholder="Edad/Age">
+                                    </div>
+                                    <br>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Nacionalidad/Nacionality">
+                                    </div>
+                                    <br>    
+                                    <div class="col-md-6">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">
+                                                Masculino/Male
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                            <label class="form-check-label" for="gridRadios2">
+                                                Femenino/Female
+                                            </label>
+                                        </div>
+                                        <div class="form-check disabled">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                            <label class="form-check-label" for="gridRadios3">
+                                                Otro/Other
+                                            </label>
+                                        </div>
+                                    
+                                    </div>
+                                    <br>
+                                
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label">Curso/Course</label>
+                                        <select id="inputState" class="form-select">
+                                        <option selected>Elija/Choose...</option>
+                                        <option>FL Studio</option>
+                                        <option>Ableton Live</option>
+                                        <option>Pro Tools</option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label">Nivel/Level</label>
+                                        <select id="inputState" class="form-select">
+                                        <option selected>Elija/Choose...</option>
+                                        <option>Inicial/Initial</option>
+                                        <option>Intermedio/Intermediate</option>
+                                        <option>Avanzado/Advanced</option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    
+                                        <button type="submit" class="btn btn-primary">Enviar/Submit</button>
+                                        <button type="reset"  class="btn btn-secondary">Reset</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </section>
+                </div>
 
 
-
-
-        </section>
-
-
-
-    </main>
+        </main>
     
-    <footer class="pie">
-        <br>
-        <br>
-        <a href="https://www.beatstars.com/abemusix" target="_blank"> <h3 class="beats">BEATS GRATUITOS HACIENDO CLICK ACÁ!</h3></a>   
-        <br>
-        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
-        <a href="https://www.instagram.com/abemusix/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        <br>
-        <br>
-        <p>© 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
-            ABE MUSIX corp™ supported by:
-        </p> 
-            <br>   
+        <footer class="footer">
+            <p>
+                © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
+                ABE MUSIX corp™ supported by:
+            </p> 
+            <div class="carrusel_footer">
+                <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div  class="carousel-item active" data-bs-interval= "2000">
+                            <img  src="../ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
+                        </div>
+                        <div  class="carousel-item" data-bs-interval= "2000">
+                            <img  src="../ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
+                        </div>
+                        <div class="carousel-item" data-bs-interval= "2000" >
+                            <img  src="../ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
+                        </div>
+                    </div>
+                </div>
+            </div>    
 
-            <img src="../ASSETS/img/arturia.jpg" >
-            <img src="/ASSETS/img/audiotech.jpg">
-            <img src="/ASSETS/img/pioner.jpg">
-        
 
-
-    </footer>
-    
+        </footer>
+    </div>
     <!--CDN BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 

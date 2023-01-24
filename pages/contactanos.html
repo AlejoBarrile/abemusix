@@ -6,140 +6,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Contáctanos | ABE MUSIX corp </title>
     <link rel="shortcut icon" href="../ASSETS/img/ondas-sonoras.png" type="image/x-icon">
-    <!--MI CSS-->
-    <link rel="stylesheet" href="../css/style.css">
     <!--FONTAWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!--CDN BOOTSTRAP CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <!--CDN ANIMATED CSS-->
+    <link   rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--MI CSS-->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 
 <body>
-    <header>
-        <div class="div_promo_header">
-            <h2 class="promo_header">Escúchanos acá</h2>
-        
-            <a href="https://soundcloud.com/abemusix" target="_blank"><i class="fa-brands fa-soundcloud fa-4x"></i></a>
-        </div>
-        <br>
+    <div class="contenedor">
+        <header class="encabezado">
+                <nav class="navbar navbar-expand-md bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"><img  class= "logo" src="../ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>   
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item" >
+                                    <a  class="nav-link" href="../pages/aprende aca.html"><b>APRENDÉ </b></a>
+                                </li>
+                                <li class="nav-item" >
+                                    <a  class="nav-link" href="../pages/tracks_populares.html"><b>TRACKS </b></a>
+                                </li>
+                                <li class="nav-item" >
+                                    <a  class="nav-link active" aria-current="page" href="../pages/contactanos.html"><b>CONTÁCTANOS</b></a>
+                                </li>
+                                <li class="nav-item" >
+                                    <a class="nav-link"  href="../pages/sobre_nosotros.html"><b>NOSOTROS</b></a>
+                                </li>
 
- 		<a href="../index.html"><img class=logo src="../ASSETS/img/ABE LOGO.jpg" alt="" ></a>
-
-
-
-            <nav class="navegacion">
-                <ul>
-    
-                    <a href="../index.html"><li>Inicio</li></a>
-                    <a href="./aprende aca.html"><li>Aprendé acá</li></a>
-                    <a href="./tracks_populares.html"><li>Tracks populares</li></a>
-                    <a href="./contactanos.html"><li>Contáctanos</li></a>
-                    <a href="./sobre_nosotros.html"><li>Sobre nosotros</li></a>
-
-                </ul>
-            </nav>
-
-    </header>
-    <main>
-        
-
-        <section class="contactanos">
-            <h1 class="titulo2">Contáctanos!</h1>
+                                <li class="nav-item" >
+                                    <h3 class="promo_header"> Nos podes escuchar en:</h3>
+                                </li>
+                                <li class="animate__animated animate__heartBeat" class="nav-item" >
+                                    <a class="nav-link" href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-4x" ></i></a>
+                                </li>
+                                <li class="animate__animated animate__heartBeat" class="nav-item" >
+                                    <a class="nav-link" href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-4x" ></i></a>
+                                </li>
+                            </ul>
+                                
+                                
+                            
+                            
+                        </div>
+                    </div>
+                </nav>
+                
+                
             
-            <img src="../ASSETS/img/world.jpg" class="img_contac">
-            <h2>Envíanos tus producciones para que las escuchemos, <br>
-                también recibimos loops  <br> para usar en nuestros tracks y te mencionamos! <br>
-                Email: abemusix@gmail.com<br> Cel: 3412250376 <br>
-                Sucursal ubicada en: Av. Pellegrini 2524 <br>
-                Rosario, Santa fe, Argentina.
-            </h2>
-            <img class="img_contac" src="https://img.elo7.com.br/product/zoom/32B9AA9/quadro-decorativo-mapa-mundi-paises-continentes-decorar-quadro-com-escrita.jpg" alt="">
-
-                <form class="form_contac" action="">
-                    <fieldset>
-                        <legend>Formá parte del equipo!/Be part of the team!</legend>
-                        <label for="">Nombre/Name</label>
-                        <input type="text" name="Nombre" required>
-                    <br>
-                    <br>
-                        <label for="">Apellido/Surname</label>
-                        <input type="text" name="Apellido" required>
-                    <br>
-                    <br>
-                        <label for="id_masc">Masculino/Male</label>
-                        <input type="radio" name="sexo" id="id_masc">
-                    <br>
-                    <br>
-                        <label for="id_fem">Femenino/Female</label>
-                        <input type="radio" name="sexo" id="id_fem">
-                    <br>
-                    <br>
-                        <label for="">E-mail/Adress</label>
-                        <input type="email" required>
-                    <br>
-                    <br>
-                        <label for="">Edad/Age</label>
-                        <input type="number" name="edad" required>
-                    <br>
-                    <br>
-                        <label for="">Nacionalidad/Nacionality</label>
-                        <input type="text">
-                    <br>
-                    <br>
-                        <label for="">¿Qué eres?/What are you?</label>
-                    <br>
-                    <br>
-                        <label for="id_art">Artista/Artist</label>
-                        <input type="radio" name="que" id="id_art">
+        </header>
+        <main class="principal">
+            <div class="container text-center text-bg-light" >
+                <div class="fondo_contac" >
+                    <h1 class="titulo2">Contáctanos!</h1>
                     
-                        <label for="id_prod">Productor/Producer</label>
-                        <input type="radio" name="que" id="id_prod">
-                        
-                        <label for="id_p    rofe">Profesor/Teacher</label>
-                        <input type="radio" name="que" id="id_profe">
-                        <br>
-                        <br>    
-                        <button type="submit">Enviar/Submit</button>
-                        <button type="reset">Reset</button>
-
+                        <img class="mapa" src="../ASSETS/img/mapa3.jpg" alt="FOTO DE LA TIERRA CON UNA LUPA">
                     
-            </fieldset>
+                    
+                    <h2 class="contactanos">Envíanos tus producciones para que las escuchemos,
+                        también recibimos loops  para usar en nuestros tracks y te damos créditos. <br>
+                        Email: abemusix@gmail.com <br>Cel: 3412250376 <br>
+                        Sucursal ubicada en: Av. Pellegrini 2524 <br>
+                        Rosario, Santa fe, Argentina.
+                    </h2>
+                </div>
+                
+                <section class="form_contac">
+                    <div class="container">
+                    
+                        <form class="row">
+                            <fieldset>
+                                
+                                <legend>Formá parte del equipo!/Be part of the team!</legend>
+                                <br>
+                                <br>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Nombre/Name">
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Apellido/Surname">
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="E-mail">
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" placeholder="Edad/Age">
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Nacionalidad/Nacionality">
+                                </div>
+                                <br>    
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Masculino/Male
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Femenino/Female
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                        <label class="form-check-label" for="gridRadios3">
+                                            Otro/Other
+                                        </label>
+                                    </div>
+                                
+                                </div>
+                                <br>
+                            
+                                <div class="col-md-4">
+                                    <label for="inputState" class="form-label">¿Qué eres?/ What are you?</label>
+                                    <select id="inputState" class="form-select">
+                                    <option selected>Elija/Choose...</option>
+                                    <option>Artista/Artist</option>
+                                    <option>Productor/Producer</option>
+                                    <option>Profesor/Professor</option>
+                                    </select>
+                                </div>
+                                <br>
+                                    <button type="submit" class="btn btn-primary">Enviar/Submit</button>
+                                    <button type="reset"  class="btn btn-secondary">Reset</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </section>
+            </div>
 
-
-
-
-
-            </form>
+                
+        </main>        
+    </div>    
         
-        </section>
-
-    
-    </main>
-
-    <footer class="pie">
-        <br>
-        <br>
-        <a href="https://www.beatstars.com/abemusix" target="_blank"> <h3 class="beats">BEATS GRATUITOS HACIENDO CLICK ACÁ!</h3></a>   
-        <br>
-        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
-        <a href="https://www.instagram.com/abemusix/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        <br>
-        <br>
-        <p>© 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
-            ABE MUSIX corp™ supported by:
-        </p> 
-            <br>   
-
-            <img src="../ASSETS/img/arturia.jpg" >
-            <img src="/ASSETS/img/audiotech.jpg">
-            <img src="/ASSETS/img/pioner.jpg">
         
 
+        <footer class="footer">
+            <p>
+                © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
+                ABE MUSIX corp™ supported by:
+            </p> 
+            <div class="carrusel_footer">
+                <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div  class="carousel-item active" data-bs-interval= "2000">
+                            <img  src="../ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
+                        </div>
+                        <div  class="carousel-item" data-bs-interval= "2000">
+                            <img  src="../ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
+                        </div>
+                        <div class="carousel-item" data-bs-interval= "2000" >
+                            <img  src="../ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
+                        </div>
+                    </div>
+                </div>
+            </div>    
 
-    </footer>         
 
+        </footer>         
+    </div>    
     <!--CDN BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
     
