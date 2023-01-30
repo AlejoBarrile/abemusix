@@ -1,0 +1,170 @@
+@media screen and (max-width: 480px){
+    
+    .contactanos{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 15px;
+    
+    }
+
+    .mapa{
+        border-radius: $bor_rad;
+        width: 70%;
+        height: 70%;
+    }
+
+    .titulo2{
+
+        font-size: 30px;
+
+    }
+    .titulo{
+
+        font-size: 30px;
+
+    }
+    
+
+    .logo{
+        
+        height: 15vh;
+        width: 28vw; 
+    }
+    
+
+}
+@media screen and (min-width: 481px){
+    
+    .mapa{
+        border-radius: $bor_rad;
+        width: 70%;
+        height: 70%;
+    }
+    
+    .titulo{
+
+        font-size: 30px;
+
+    }
+    
+    .titulo2{
+        
+        font-size: 35px;
+
+    }
+    
+    .logo{
+
+        height: 15vh;
+        width: 25vw;
+
+    }   
+
+}
+@media screen and (min-width: 700px){
+    
+    .mapa{
+        border-radius: $bor_rad;
+        width: 70%;
+        height: 70%;
+    }
+
+    .titulo{
+
+        font-size: 55px;
+
+    }
+    
+    .titulo2{
+        
+        font-size: 55px;
+
+    }
+    
+    .logo{
+
+        height: 20vh;
+        width: 25vw;
+
+    }   
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .mapa{
+        border-radius: $bor_rad;
+        width: 70%;
+        height: 70%;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-rows: 10%,50%,30%,10%;
+        grid-template-areas:    "encabezado"
+                                "principal"
+                                "info"
+                                "footer"
+    } 
+    .promo_header{
+        display: none;
+    }
+    #logosc{
+        display: none;
+
+    }
+    #logoyt{
+        display: none;
+    }
+
+
+    
+}
+@media screen and (min-width: 1024px){
+    .contenedor{
+        display: grid;
+        grid-template-rows: 1fr,3fr,3fr,1fr;
+        grid-template-areas:    "encabezado"
+                                "principal"
+                                "info"
+                                "footer"
+
+    } 
+
+    .titulo{
+
+        font-size: 70px;
+
+    }
+        
+    .logo{
+
+        height: 15vh;
+        width: 15vw;
+
+    }
+    .promo_header{
+        padding: 10px;
+        padding-left: 0px;
+        
+        color: $other;
+    
+    }   
+    #logoyt{
+        color: red;
+        margin: 5px;
+        padding-left: 15px;
+    }
+    
+    #logosc{
+        color: rgb(255, 123, 0);
+        padding-left: 15px;
+        margin: 5px;
+    }
+    
+}
+@media screen and (min-width: 1090px){
+    .logo{
+        height: 20vh;
+        width: 15vw;
+    }
+
+    
+}

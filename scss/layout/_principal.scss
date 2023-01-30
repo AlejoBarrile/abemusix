@@ -1,0 +1,13 @@
+.principal{
+    background-color: $secondary;
+    grid-area: principal;
+    
+
+}
+.galeria{
+    grid-area: info;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: $primary;
+}

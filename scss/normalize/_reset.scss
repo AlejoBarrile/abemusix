@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fotos{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+.titulo{
+    margin-top: 100px;
+    text-align: center;
+    color: $secondary;
+    font-size: 70px;
+    padding: 50px;
+}
+.titulo2{
+
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color: $primary;
+    font-size: 65px;
+    padding: 10px;
+    margin-bottom: 20px;
+}

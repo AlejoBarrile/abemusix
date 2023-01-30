@@ -1,0 +1,31 @@
+.logo{
+    position: relative; 
+    top: 0;
+    left: 0;
+    height: 20vh;
+    width: 15vw;
+    border-radius: $bor_rad;
+}
+
+#logoyt{
+    color: red;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+#logosc{
+    color: rgb(255, 123, 0);
+    padding-left: 15px;
+    margin: 5px;
+}
+
+.nav-link:hover{
+    color: $primary;
+}
+.promo_header{
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    
+    color: $other;
+}
