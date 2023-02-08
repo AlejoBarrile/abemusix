@@ -1,13 +1,41 @@
 .eleginos{
     list-style-type: square;
-    font-size: 20px;
+}
+.itemnosotros{
+    padding: 20px;
 }
 
-.beats{
-    display: inline-block;
-    margin: 50px;
-    padding: 20px;
-    color: $primary;
-    text-decoration: none;
-    border-style:dashed
+.nosotros{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-areas:"donde"
+                        "como"
+                        "myv";
+}
+.donde{
+    grid-area: donde;
+
+    text-align: map-get($sobre_nosotros , texto );
+    padding: map-get($sobre_nosotros , espaciado );
+    font-size: map-get($sobre_nosotros , letras );
+}
+.como{
+    grid-area: como;
+
+    text-align: map-get($sobre_nosotros , texto );
+    padding: map-get($sobre_nosotros , espaciado );
+    font-size: map-get($sobre_nosotros , letras );
+}
+
+.myv{
+    grid-area: myv;
+
+    text-align: map-get($sobre_nosotros , texto );
+    padding: map-get($sobre_nosotros , espaciado );
+    font-size: map-get($sobre_nosotros , letras );
+
+}
+.img_nosotros{
+    @include ancho_alto($width0, $height0);
+    padding:0px
 }

@@ -1,320 +1,486 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .fotos {
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
 }
 
 .titulo {
-    margin-top: 100px;
-    text-align: center;
-    color: aliceblue;
-    font-size: 70px;
-    padding: 50px;
+  margin-top: 100px;
+  text-align: center;
+  color: #f8f9fa;
+  font-size: 70px;
+  padding: 50px;
 }
 
 .titulo2 {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    color: rgb(168, 46, 122);
-    font-size: 65px;
-    padding: 10px;
-    margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: rgb(168, 46, 122);
+  font-size: 65px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+}
+
+.extras {
+  color: black;
+}
+.extras:hover {
+  color: rgb(168, 46, 122);
 }
 
 .logo {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 20vh;
-    width: 15vw;
-    border-radius: 60px;
-}
-
-#logoyt {
-    color: red;
-    margin: 5px;
-    padding-left: 15px;
-}
-
-#logosc {
-    color: rgb(255, 123, 0);
-    padding-left: 15px;
-    margin: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .nav-link:hover {
-    color: rgb(168, 46, 122);
+  color: rgb(168, 46, 122);
 }
 
-.promo_header {
-    padding: 10px;
-    margin-left: 20px;
-    text-align: center;
-    color: rgb(70, 68, 68);
+.nav-item {
+  margin-left: 10px;
+  padding: 10px;
 }
 
 .eleginos {
-    list-style-type: square;
-    font-size: 20px;
+  list-style-type: square;
 }
 
-.beats {
-    display: inline-block;
-    margin: 50px;
-    padding: 20px;
-    color: rgb(168, 46, 122);
-    text-decoration: none;
-    border-style: dashed;
+.itemnosotros {
+  padding: 20px;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-areas: "donde" "como" "myv";
+}
+
+.donde {
+  grid-area: donde;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+}
+
+.como {
+  grid-area: como;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+}
+
+.myv {
+  grid-area: myv;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+}
+
+.img_nosotros {
+  width: 100%;
+  height: 600px;
+  padding: 0px;
 }
 
 .mapa {
-    border-radius: 60px;
+  border-radius: 60px;
 }
 
 .contactanos {
-    padding-top: 50px;
-    padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .promo_ig {
-    padding: 15px;
-    text-align: center;
-    background-color: rgba(230, 85, 174, 0.171);
-    color: aliceblue;
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(230, 85, 174, 0.171);
+  color: #f8f9fa;
 }
 
 .promo_ig_enlace {
-    color: rgb(0, 183, 255);
+  color: rgb(0, 183, 255);
 }
 
 #inscribite_aca {
-    text-align: center;
-    margin-top: 70px;
+  text-align: center;
+  margin-top: 70px;
 }
 
 .inscribite_aca_deco {
-    -webkit-text-decoration-line: none;
-    text-decoration-line: none;
-    color: aliceblue;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #f8f9fa;
 }
 
 .inscribite_aca_deco:hover {
-    color: rgba(117, 5, 74, 0.726);
+  color: rgba(117, 5, 74, 0.726);
 }
 
 .fondoindex {
-    background-image: url("https://cdn.pixabay.com/photo/2017/11/10/20/02/pro-studio-2937531_960_720.jpg");
-    background-size: cover;
-    padding-bottom: 150px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/10/20/02/pro-studio-2937531_960_720.jpg");
+  background-size: cover;
+  padding-bottom: 150px;
+}
+
+.cerebro {
+  height: 500px;
 }
 
 .escuela_texto {
-    font-size: 25px;
-    text-align: center;
-    color: rgb(70, 68, 68);
+  font-size: 25px;
+  text-align: center;
+  color: rgb(70, 68, 68);
 }
 
 .img_escuela {
-    width: 640px;
-    height: 400px;
-    padding-bottom: 50px;
+  width: 640px;
+  height: 400px;
+  padding-bottom: 50px;
 }
 
 .footer {
-    grid-area: footer;
-    background-color: rgb(70, 68, 68);
-    text-align: center;
-    color: black;
-    padding: 20px;
+  grid-area: footer;
+  background-color: rgb(70, 68, 68);
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
+.footer__extra {
+  grid-area: extra;
+}
+.footer__sponsors {
+  grid-area: sponsors;
+}
+.footer__links {
+  grid-area: links;
+}
+.footer__carrusel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.carrusel_footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#logoyt {
+  color: red;
+}
+
+#logosc {
+  color: rgb(255, 123, 0);
 }
 
 .form_esc {
-    grid-area: info;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 20px;
-    background-color: rgb(168, 46, 122);
-    color: aliceblue;
+  grid-area: info;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+  background-color: rgb(168, 46, 122);
+  color: #f8f9fa;
 }
 
 .form_contac {
-    grid-area: info;
-    text-align: center;
-    padding: 35px;
-    background-color: rgb(168, 46, 122);
-    color: aliceblue;
+  grid-area: info;
+  text-align: center;
+  padding: 35px;
+  background-color: rgb(168, 46, 122);
+  color: #f8f9fa;
+}
+
+.footergrids {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-areas: "extra  sponsors links";
 }
 
 @media screen and (max-width: 480px) {
-    .contactanos {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        font-size: 15px;
-    }
-
-    .mapa {
-        border-radius: 60px;
-        width: 70%;
-        height: 70%;
-    }
-
-    .titulo2 {
-        font-size: 30px;
-    }
-
-    .titulo {
-        font-size: 30px;
-    }
-
-    .logo {
-        height: 15vh;
-        width: 28vw;
-    }
+  .eleginos {
+    font-size: 14px;
+  }
+  .itemnosotros {
+    padding: 5px;
+  }
+  .img_nosotros {
+    height: 300px;
+    padding: 10px;
+  }
+  .como {
+    font-size: 14px;
+  }
+  .donde {
+    font-size: 14px;
+  }
+  .myv {
+    font-size: 14px;
+  }
+  .card-text {
+    text-align: center;
+    font-size: 10px;
+  }
+  .galeria {
+    padding: 5px;
+    gap: 5px;
+  }
+  .footerextra {
+    font-size: 0px;
+  }
+  .footersponsors {
+    font-size: 12px;
+  }
+  #logoyt {
+    display: none;
+  }
+  #logosc {
+    display: none;
+  }
+  .logo {
+    position: relative;
+    height: 28vh;
+    width: 70vw;
+  }
+  .nav-item {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  .contactanos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 15px;
+  }
+  .mapa {
+    border-radius: 60px;
+    width: 70%;
+    height: 70%;
+  }
+  .titulo2 {
+    font-size: 30px;
+  }
+  .titulo {
+    font-size: 30px;
+  }
 }
-
 @media screen and (min-width: 481px) {
-    .mapa {
-        border-radius: 60px;
-        width: 70%;
-        height: 70%;
-    }
-
-    .titulo {
-        font-size: 30px;
-    }
-
-    .titulo2 {
-        font-size: 35px;
-    }
-
-    .logo {
-        height: 15vh;
-        width: 25vw;
-    }
+  .itemnosotros {
+    padding: 10px;
+  }
+  .eleginos {
+    font-size: 14px;
+  }
+  .img_nosotros {
+    height: 350px;
+    padding: 10px;
+  }
+  .como {
+    font-size: 16px;
+  }
+  .donde {
+    font-size: 16px;
+  }
+  .myv {
+    font-size: 16px;
+  }
+  .card-text {
+    text-align: center;
+    font-size: 13px;
+  }
+  .galeria {
+    padding: 8px;
+    gap: 8px;
+  }
+  .footerextra {
+    font-size: 10px;
+  }
+  .footersponsors {
+    font-size: 13px;
+  }
+  .mapa {
+    border-radius: 60px;
+    width: 70%;
+    height: 70%;
+  }
+  .titulo {
+    font-size: 30px;
+  }
+  .titulo2 {
+    font-size: 35px;
+  }
+  .logo {
+    position: relative;
+    height: 28vh;
+    width: 60vw;
+  }
 }
-
 @media screen and (min-width: 700px) {
-    .mapa {
-        border-radius: 60px;
-        width: 70%;
-        height: 70%;
-    }
-
-    .titulo {
-        font-size: 55px;
-    }
-
-    .titulo2 {
-        font-size: 55px;
-    }
-
-    .logo {
-        height: 20vh;
-        width: 25vw;
-    }
+  .itemnosotros {
+    padding: 13px;
+  }
+  .eleginos {
+    font-size: 16px;
+  }
+  .img_nosotros {
+    height: 400px;
+    padding: 10px;
+  }
+  .como {
+    font-size: 18px;
+  }
+  .donde {
+    font-size: 18px;
+  }
+  .myv {
+    font-size: 18px;
+  }
+  .footerextra {
+    font-size: 13px;
+  }
+  .footersponsors {
+    font-size: 18px;
+  }
+  .logo {
+    position: relative;
+    height: 30vh;
+    width: 40vw;
+  }
+  .card-text {
+    text-align: center;
+    font-size: 18px;
+  }
+  .galeria {
+    padding: 10px;
+    gap: 10px;
+  }
+  .mapa {
+    border-radius: 60px;
+    width: 70%;
+    height: 70%;
+  }
+  .titulo {
+    font-size: 55px;
+  }
+  .titulo2 {
+    font-size: 55px;
+  }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .mapa {
-        border-radius: 60px;
-        width: 70%;
-        height: 70%;
-    }
-
-    .contenedor {
-        display: grid;
-        grid-template-rows: 10%, 50%, 30%, 10%;
-        grid-template-areas: "encabezado" "principal" "info" "footer";
-    }
-
-    .promo_header {
-        display: none;
-    }
-
-    #logosc {
-        display: none;
-    }
-
-    #logoyt {
-        display: none;
-    }
+  .itemnosotros {
+    padding: 15px;
+  }
+  .eleginos {
+    font-size: 18px;
+  }
+  .img_nosotros {
+    height: 500px;
+    padding: 10px;
+  }
+  .como {
+    font-size: 20px;
+  }
+  .donde {
+    font-size: 20px;
+  }
+  .myv {
+    font-size: 20px;
+  }
+  .nav-item {
+    font-size: 20px;
+  }
+  .footerextra {
+    font-size: 15px;
+  }
+  .footersponsors {
+    font-size: 18px;
+  }
+  .logo {
+    position: relative;
+    height: 25vh;
+    width: 30vw;
+  }
+  .mapa {
+    border-radius: 60px;
+    width: 70%;
+    height: 70%;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-rows: 10%, 50%, 30%, 10%;
+    grid-template-areas: "encabezado" "principal" "info" "footer";
+  }
 }
-
 @media screen and (min-width: 1024px) {
-    .contenedor {
-        display: grid;
-        grid-template-rows: 1fr, 3fr, 3fr, 1fr;
-        grid-template-areas: "encabezado" "principal" "info" "footer";
-    }
-
-    .titulo {
-        font-size: 70px;
-    }
-
-    .logo {
-        height: 15vh;
-        width: 15vw;
-    }
-
-    .promo_header {
-        padding: 10px;
-        padding-left: 0px;
-        color: rgb(70, 68, 68);
-    }
-
-    #logoyt {
-        color: red;
-        margin: 5px;
-        padding-left: 15px;
-    }
-
-    #logosc {
-        color: rgb(255, 123, 0);
-        padding-left: 15px;
-        margin: 5px;
-    }
-}
-
-@media screen and (min-width: 1090px) {
-    .logo {
-        height: 20vh;
-        width: 15vw;
-    }
-}
-
-.encabezado {
-    grid-area: encabezado;
-    background-color: aliceblue;
+  .itemnosotros {
+    padding: 20px;
+  }
+  .eleginos {
+    font-size: 20px;
+  }
+  .img_nosotros {
     width: 100%;
+    height: 600px;
+    padding: 0px;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-rows: 1fr, 3fr, 3fr, 1fr;
+    grid-template-areas: "encabezado" "principal" "info" "footer";
+  }
+  .footerextra {
+    font-size: 18px;
+  }
+  .footersponsors {
+    font-size: 21px;
+  }
+  .titulo {
+    font-size: 70px;
+  }
+  .nav-item {
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 60px;
+    display: inline-block;
+    padding: 10px;
+    height: 21vh;
+    width: 20vw;
+  }
+}
+.encabezado {
+  grid-area: encabezado;
+  background-color: #f8f9fa;
+  width: 100%;
 }
 
 .principal {
-    background-color: aliceblue;
-    grid-area: principal;
+  background-color: #f8f9fa;
+  grid-area: principal;
 }
 
 .galeria {
-    grid-area: info;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: rgb(168, 46, 122);
-}
-
-/*# sourceMappingURL=main.css.map */
+  grid-area: info;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(168, 46, 122);
+}/*# sourceMappingURL=main.css.map */

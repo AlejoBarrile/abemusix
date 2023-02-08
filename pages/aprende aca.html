@@ -19,42 +19,31 @@
 
 <body>
     <div class="contenedor">
-        <header class="encabezado">
+        <!--HEADER-->
+        <header class="encabezado    d-flex justify-content-center">
+            <a class="navbar-brand" href="../index.html"><img  class= "logo px-5" src="../ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+            <!--NAV BAR-->
             <nav class="navbar navbar-expand-md bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html"><img  class= "logo" src="../ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+                <div class="container-fluid p-4">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
                             <li class="nav-item" >
-                                <a  class="nav-link active" aria-current="page" href="../pages/aprende aca.html"><b>APRENDÉ </b></a>
+                                <a  class="nav-link" href="../pages/aprende aca.html"><b>APRENDÉ </b></a>
                             </li>
                             <li class="nav-item" >
-                                <a  class="nav-link " href="../pages/tracks_populares.html"><b>TRACKS </b></a>
+                                <a  class="nav-link" href="../pages/tracks_populares.html"><b>TRACKS </b></a>
                             </li>
                             <li class="nav-item" >
-                                <a  class="nav-link" href="../pages/contactanos.html"><b>CONTÁCTANOS</b></a>
+                                <a  class="nav-link" href="../pages/contactanos.html"><b>CONTÁCTANOS </b></a>
                             </li>
                             <li class="nav-item" >
                                 <a class="nav-link"  href="../pages/sobre_nosotros.html"><b>NOSOTROS</b></a>
                             </li>
 
-                            <li class="nav-item" >
-                                <h3 class="promo_header"> Nos podes escuchar en:</h3>
-                            </li>
-                            <li class="animate__animated animate__heartBeat" class="nav-item" >
-                                <a class="nav-link" href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-4x" ></i></a>
-                            </li>
-                            <li class="animate__animated animate__heartBeat" class="nav-item" >
-                                <a class="nav-link" href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-4x" ></i></a>
-                            </li>
-                        </ul>
-                            
-                            
-                        
-                        
+                        </ul>   
                     </div>
                 </div>
             </nav>
@@ -62,24 +51,27 @@
             
         
         </header>
-        <main class="principal" class="fondo_color2">
-            <br>
-            <br>
+        
+        <main class="principal pb-2" class="fondo_color2">
+
             <h1 class="titulo2">   
-                En nuestra escuela podés aprender a producir <br> desde cero!
+                En nuestra escuela podés aprender a producir desde cero!
             </h1>
-            
+                <!--INFO DE LOS CURSOS(CONTENIDO PRINCIPAL)-->
                 <div class="container">
-                    <section> 
+                    <section>
+                        <!--GRID ROW BOOTSTRAP-->
                         <div class="row justify-content-center align-content-center">
-                            <div class="col-xs-12 col-md-6 col-lg-4">
+                            <!--GRID COL BOOTSTRAP-->
+                            <div class="col-xs-12 col-md-6 col-lg-4 p-2">
+                                    <!--CARD BOOTSTRAP-->
                                     <div class="card" style="width: 18rem;">
                                         <img class="wow animate__animated animate__flipInX" class="fotos_cursos" src="../ASSETS/img/fl.png" class="card-img-top" alt="FL Studio">
                                         <div class="card-body">
-                                            <h5 class="card-title">CURSO DE MÚSICA URBANA</h5>
-                                            <p class="card-text">Curso de música urbana utilizando FL Studio. Nivel: Inicial, Intermedio, Avanzado.
+                                            <h5 class="card-title p-3">CURSO DE MÚSICA URBANA</h5>
+                                            <p class="card-text p-4">Curso de música urbana utilizando FL Studio. Nivel: Inicial, Intermedio, Avanzado.
                                                                 Aprenderás lo necesario para realizar hits de hip hop, reggaeton, trap, entre otros.
-                                                                <br>El curso incluye: <br>
+                                                                El curso incluye:
                                                             <ul>
                                                                 <li>Conceptos musicales</li>
                                                                 <li>Herramientas de FL y samples/ drums kit.</li>
@@ -88,25 +80,23 @@
                                                                 en sus 3 niveles.
                                                                 
                                                             </ul>
-                                                                <br>
-                                                                <br>
-                                                                <br>
-                                                                <br>
-                                                                <br>
+
                                             </p>
                                             <a href="https://www.youtube.com/watch?v=3FlCFBEbFpc&list=PL5353C9EB8A886421" target="_blank" class="btn btn-primary" >Conocé más </a>
                                         </div>
                                     </div>
-                            </div>         
-                            <div class="col-xs-12 col-md-6 col-lg-4">        
+                            </div>
+                            <!--GRID COL BOOTSTRAP-->
+                            <div class="col-xs-12 col-md-6 col-lg-4 p-2">
+                                <!--CARD BOOTSTRAP-->    
                                     <div class="card" style="width: 18rem;">
                                         <img class="wow animate__animated animate__flipInX" class="fotos_cursos" src="../ASSETS/img/ableton.png" class="card-img-top" alt="ABLETON Live">
                                         <div class="card-body">
-                                            <h5 class="card-title">CURSO DE MÚSICA ELECTRÓNICA</h5>
+                                            <h5 class="card-title p-1">CURSO DE MÚSICA ELECTRÓNICA</h5>
                                             <p class="card-text">
                                                 Curso de música electrónica utilizando ABLETON Live. Nivel: Inicial, Intermedio, Avanzado.
                                                                 Aprenderás lo que se necesita para producir tracks, loops y samples de house, EDM, dubstep, y variados géneros que conforman la musica electrónica moderna.
-                                                                <br>El curso incluye: <br>
+                                                                El curso incluye:
                                                             <ul>
                                                                 <li>Conceptos musicales.</li>
                                                                 <li>Herramientas de ABLETON y samples/ drums kit.</li>
@@ -114,7 +104,7 @@
                                                                 <li>Noción de marketing para vender tus producciones.</li>
                                                                 en sus 3 niveles.
                                                             </ul>    
-                                                            <br>
+
                                                             
                                             </p>
                                             <a href="https://www.youtube.com/watch?v=bOxPpoQve24" target="_blank" class="btn btn-primary">Conocé más</a>
@@ -122,15 +112,17 @@
                                     </div>
                             
                             </div>
-                            <div class="col-xs-12 col-md-6 col-lg-4"> 
+                            <!--GRID COL BOOTSTRAP-->
+                            <div class="col-xs-12 col-md-6 col-lg-4 p-2">
+                                <!--CARD BOOTSTRAP-->
                                     <div class="card" style="width: 18rem;">
                                         <img class="wow animate__animated animate__flipInX" class="fotos_cursos" src="../ASSETS/img/prootols.jpg" class="card-img-top" alt="PRO TOOLS">
-                                        <div class="card-body ">
+                                        <div class="card-body pb-3">
                                             <h5 class="card-title">CURSO DE MÚSICA INSTRUMENTALISTA</h5>
                                             <p class="card-text">
                                                 Curso de música instrumentalista utilizando PRO TOOLS. Nivel: Inicial, Intermedio, Avanzado.
                                                 Aprenderás lo que se necesita para grabar y producir artistas solistas, duos o bandas, en cualquier género que requiera grabación.
-                                                <br>El curso incluye: <br>
+                                                El curso incluye: 
                                                 <ul>
                                                     <li>Conceptos musicales.</li>
                                                     <li>Herramientas de PRO TOOLS.</li>
@@ -139,7 +131,7 @@
                                                     <li>Información personalizada sobre acustización de salas.</li>
                                                     en sus 3 niveles.
                                                 </ul>
-                                                <br>
+
                                                 
                                             </p>
                                             <a href="https://www.youtube.com/watch?v=2PPihcAHhgU" target="_blank" class="btn btn-primary">Conocé más </a>
@@ -148,10 +140,11 @@
                             
                             </div>
                         </div>
-                    </section>
-                    <br><br><br>        
+                    </section>      
                     <section>
+                            <!--GRID ROW BOOTSTRAP-->
                             <div class="row">
+                                <!--GRID COL BOOTSTRAP-->
                                 <div class="col-12 col-lg-6 text-center">
                                     <div class="escuela_texto">
                                         <p>
@@ -159,13 +152,15 @@
                                             la confección de hits musicales, en cualquiera de nuestros cursos divididos en géneros
                                             y niveles.
                                             Mirá los videos informativos y elegí el que mejor se adapta a vos.
-                                            <br>
+
                                             Te esperamos en ABE MUSIX: Escuela de producción.
                                         </p>
                                         
                                     </div>
                                 </div>
+                                <!--GRID COL BOOTSTRAP-->
                                 <div class="col-12 col-lg-6 align-content-center justify-content-center">
+                                        <!--CAROUSEL BOOTSTRAP-->
                                         <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
                                             <div class="carousel-indicators">
                                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -201,46 +196,41 @@
                                                 <span class="visually-hidden">Next</span>
                                             </button>
                                         </div>
-                                            
-                                
-                                
                                 </div>
-                            
-                            
                             </div>
                         </div>
-                    </section>  
-
+                    </section>
+                    
                     <section class="form_esc">
+                        <!--FORMULARIO ESCUELA-->
                         <div class="container">
-                        
-                            <form id="id_form" class="row">
+                            
+                            <form id="id_form" class="row p-3">
                                 <fieldset>
-                                    <br>
-                                    <legend>Aprendé con nosotros!/Learn with us!</legend>
-                                    <br>
-                                    <br>
-                                    <div class="col-md-6">
+
+                                    <legend class="p-2">Aprendé con nosotros!/Learn with us!</legend>
+                                    <!--GRID COL BOOTSTRAP-->
+                                    <div class="col-md-6 p-1">
                                         <input type="text" class="form-control" placeholder="Nombre/Name">
                                     </div>
-                                    <br>
-                                    <div class="col-md-6">
+                                    <!--GRID COL BOOTSTRAP-->
+                                    <div class="col-md-6 p-1">
                                         <input type="text" class="form-control" placeholder="Apellido/Surname">
                                     </div>
-                                    <br>
-                                    <div class="col-md-6">
+                                    <!--GRID COL BOOTSTRAP-->
+                                    <div class="col-md-6 p-1">
                                         <input type="email" class="form-control" placeholder="E-mail">
                                     </div>
-                                    <br>
-                                    <div class="col-md-6">
+                                    <!--GRID COL BOOTSTRAP-->
+                                    <div class="col-md-6 p-1">
                                         <input type="number" class="form-control" placeholder="Edad/Age">
                                     </div>
-                                    <br>
-                                    <div class="col-md-6">
+                                    <!--GRID COL BOOTSTRAP-->
+                                    <div class="col-md-6 p-1">
                                         <input type="text" class="form-control" placeholder="Nacionalidad/Nacionality">
                                     </div>
-                                    <br>    
-                                    <div class="col-md-6">
+                                    <!--GRID COL BOOTSTRAP-->
+                                    <div class="col-md-6 p-1">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
                                             <label class="form-check-label" for="gridRadios1">
@@ -258,11 +248,9 @@
                                             <label class="form-check-label" for="gridRadios3">
                                                 Otro/Other
                                             </label>
-                                        </div>
-                                    
+                                        </div> 
                                     </div>
-                                    <br>
-                                
+                                    <!--GRID COL BOOTSTRAP-->
                                     <div class="col-md-4">
                                         <label for="inputState" class="form-label">Curso/Course</label>
                                         <select id="inputState" class="form-select">
@@ -272,7 +260,7 @@
                                         <option>Pro Tools</option>
                                         </select>
                                     </div>
-                                    <br>
+                                    <!--GRID COL BOOTSTRAP-->
                                     <div class="col-md-4">
                                         <label for="inputState" class="form-label">Nivel/Level</label>
                                         <select id="inputState" class="form-select">
@@ -282,8 +270,6 @@
                                         <option>Avanzado/Advanced</option>
                                         </select>
                                     </div>
-                                    <br>
-                                    
                                         <button type="submit" class="btn btn-primary">Enviar/Submit</button>
                                         <button type="reset"  class="btn btn-secondary">Reset</button>
                                     </div>
@@ -292,33 +278,53 @@
                         </div>
                     </section>
                 </div>
-
-
         </main>
-    
+        <!--FOOTER-->
         <footer class="footer">
-            <p>
-                © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
-                ABE MUSIX corp™ supported by:
-            </p> 
-            <div class="carrusel_footer">
-                <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div  class="carousel-item active" data-bs-interval= "2000">
-                            <img  src="../ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
-                        </div>
-                        <div  class="carousel-item" data-bs-interval= "2000">
-                            <img  src="../ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
-                        </div>
-                        <div class="carousel-item" data-bs-interval= "2000" >
-                            <img  src="../ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
-                        </div>
+            <div class="footergrids">
+                                    <!--ESTA LINEA DE "FOOTEREXTRA" LA AGREGUÉ PARA QUE GRIDS ME FUNCIONE CORRECTAMENTE,
+                        PERO NINGÚN LINK TE LLEVA A OTRO SITIO (POR AHORA)-->
+                <div class="footerextra d-flex flex-column ">
+                    <div class="d-inline">
+                        <a class="extras" href="">Preguntas Frecuentes</a>
+                    </div>
+                    <div class="d-inline">
+                        <a class="extras" href="">Términos y Condiciones</a>
                     </div>
                 </div>
-            </div>    
 
-
-        </footer>
+                <div class="footersponsors">
+                    
+                    <p>
+                        © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
+                        ABE MUSIX corp™ supported by:
+                    </p>
+                    
+                
+                    <!--CAROUSEL BOOTSTRAP-->
+                    <div class="footer__carrusel">
+                        <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div  class="carousel-item active" data-bs-interval= "2000">
+                                    <img  src="../ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
+                                </div>
+                                <div  class="carousel-item" data-bs-interval= "2000">
+                                    <img  src="../ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
+                                </div>
+                                <div class="carousel-item" data-bs-interval= "2000" >
+                                    <img  src="../ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>   
+                <div class="footerlinks">
+                        <a href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-3x" ></i></a>
+                        <a href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-3x" ></i></a>
+                </div>
+            </div>
+        </footer>  
     </div>
     <!--CDN BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

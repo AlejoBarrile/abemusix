@@ -1,0 +1,15 @@
+$primary: rgb(168, 46, 122);
+$secondary: #f8f9fa;
+$other: rgb(70, 68, 68);
+$bor_rad: 60px;
+$width0:100% ;
+$height0:600px;
+@mixin ancho_alto($width0,$height0){
+    width: $width0;
+    height: $height0;
+}
+$sobre_nosotros:(
+    texto: center,
+    espaciado: 30px,
+    letras:  24px,
+)

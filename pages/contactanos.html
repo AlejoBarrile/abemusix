@@ -19,50 +19,37 @@
 
 <body>
     <div class="contenedor">
-        <header class="encabezado">
-                <nav class="navbar navbar-expand-md bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="../index.html"><img  class= "logo" src="../ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>   
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item" >
-                                    <a  class="nav-link" href="../pages/aprende aca.html"><b>APRENDÉ </b></a>
-                                </li>
-                                <li class="nav-item" >
-                                    <a  class="nav-link" href="../pages/tracks_populares.html"><b>TRACKS </b></a>
-                                </li>
-                                <li class="nav-item" >
-                                    <a  class="nav-link active" aria-current="page" href="../pages/contactanos.html"><b>CONTÁCTANOS</b></a>
-                                </li>
-                                <li class="nav-item" >
-                                    <a class="nav-link"  href="../pages/sobre_nosotros.html"><b>NOSOTROS</b></a>
-                                </li>
+        <!--HEADER-->
+        <header class="encabezado    d-flex justify-content-center">
+            <a class="navbar-brand" href="../index.html"><img  class= "logo px-5" src="../ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+            <!--NAV BAR-->
+            <nav class="navbar navbar-expand-md bg-body-tertiary">
+                <div class="container-fluid p-4">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>   
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+                            <li class="nav-item" >
+                                <a  class="nav-link" href="../pages/aprende aca.html"><b>APRENDÉ </b></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a  class="nav-link" href="../pages/tracks_populares.html"><b>TRACKS </b></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a  class="nav-link" href="../pages/contactanos.html"><b>CONTÁCTANOS </b></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link"  href="../pages/sobre_nosotros.html"><b>NOSOTROS</b></a>
+                            </li>
 
-                                <li class="nav-item" >
-                                    <h3 class="promo_header"> Nos podes escuchar en:</h3>
-                                </li>
-                                <li class="animate__animated animate__heartBeat" class="nav-item" >
-                                    <a class="nav-link" href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-4x" ></i></a>
-                                </li>
-                                <li class="animate__animated animate__heartBeat" class="nav-item" >
-                                    <a class="nav-link" href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-4x" ></i></a>
-                                </li>
-                            </ul>
-                                
-                                
-                            
-                            
-                        </div>
+                        </ul>   
                     </div>
-                </nav>
-                
-                
-            
+                </div>
+            </nav>
         </header>
         <main class="principal">
+            <!--CONTAINER BOOTSTRAP-->
             <div class="container text-center text-bg-light" >
                 <div class="fondo_contac" >
                     <h1 class="titulo2">Contáctanos!</h1>
@@ -71,43 +58,43 @@
                     
                     
                     <h2 class="contactanos">Envíanos tus producciones para que las escuchemos,
-                        también recibimos loops  para usar en nuestros tracks y te damos créditos. <br>
-                        Email: abemusix@gmail.com <br>Cel: 3412250376 <br>
-                        Sucursal ubicada en: Av. Pellegrini 2524 <br>
+                        también recibimos loops  para usar en nuestros tracks y te damos créditos.
+                        Email: abemusix@gmail.comCel: 3412250376
+                        Sucursal ubicada en: Av. Pellegrini 2524 
                         Rosario, Santa fe, Argentina.
                     </h2>
                 </div>
                 
                 <section class="form_contac">
+                    <!--FORMULARIO TRABAJÁ CON NOSOTROS-->
                     <div class="container">
                     
                         <form class="row">
                             <fieldset>
                                 
-                                <legend>Formá parte del equipo!/Be part of the team!</legend>
-                                <br>
-                                <br>
-                                <div class="col-md-6">
+                                <legend class="pb-1">Formá parte del equipo!/Be part of the team!</legend>
+                                <!--COL BOOTSTRAP-->
+                                <div class="col-md-6 p-2">
                                     <input type="text" class="form-control" placeholder="Nombre/Name">
                                 </div>
-                                <br>
-                                <div class="col-md-6">
+                                <!--COL BOOTSTRAP-->
+                                <div class="col-md-6 p-2">
                                     <input type="text" class="form-control" placeholder="Apellido/Surname">
                                 </div>
-                                <br>
-                                <div class="col-md-6">
+                                <!--COL BOOTSTRAP-->
+                                <div class="col-md-6 p-2">
                                     <input type="email" class="form-control" placeholder="E-mail">
                                 </div>
-                                <br>
-                                <div class="col-md-6">
+                                <!--COL BOOTSTRAP-->
+                                <div class="col-md-6 p-2">
                                     <input type="number" class="form-control" placeholder="Edad/Age">
                                 </div>
-                                <br>
-                                <div class="col-md-6">
+                                <!--COL BOOTSTRAP-->
+                                <div class="col-md-6 p-2">
                                     <input type="text" class="form-control" placeholder="Nacionalidad/Nacionality">
                                 </div>
-                                <br>    
-                                <div class="col-md-6">
+                                <!--COL BOOTSTRAP-->
+                                <div class="col-md-6 p-2">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
                                         <label class="form-check-label" for="gridRadios1">
@@ -128,8 +115,7 @@
                                     </div>
                                 
                                 </div>
-                                <br>
-                            
+                                <!--COL BOOTSTRAP-->
                                 <div class="col-md-4">
                                     <label for="inputState" class="form-label">¿Qué eres?/ What are you?</label>
                                     <select id="inputState" class="form-select">
@@ -139,7 +125,7 @@
                                     <option>Profesor/Professor</option>
                                     </select>
                                 </div>
-                                <br>
+
                                     <button type="submit" class="btn btn-primary">Enviar/Submit</button>
                                     <button type="reset"  class="btn btn-secondary">Reset</button>
                                 </div>
@@ -147,37 +133,56 @@
                         </form>
                     </div>
                 </section>
-            </div>
-
-                
+            </div>       
         </main>        
 
         
-        
-
+        <!--FOOTER-->
         <footer class="footer">
-            <p>
-                © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
-                ABE MUSIX corp™ supported by:
-            </p> 
-            <div class="carrusel_footer">
-                <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div  class="carousel-item active" data-bs-interval= "2000">
-                            <img  src="../ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
-                        </div>
-                        <div  class="carousel-item" data-bs-interval= "2000">
-                            <img  src="../ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
-                        </div>
-                        <div class="carousel-item" data-bs-interval= "2000" >
-                            <img  src="../ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
-                        </div>
+            <div class="footergrids">
+                <!--ESTA LINEA DE "FOOTEREXTRA" LA AGREGUÉ PARA QUE GRIDS ME FUNCIONE CORRECTAMENTE,
+                PERO NINGÚN LINK TE LLEVA A OTRO SITIO (POR AHORA)-->
+                <div class="footerextra d-flex flex-column ">
+                    <div class="d-inline">
+                        <a class="extras" href="">Preguntas Frecuentes</a>
+                    </div>
+                    <div class="d-inline">
+                        <a class="extras" href="">Términos y Condiciones</a>
                     </div>
                 </div>
-            </div>    
 
-
-        </footer>         
+                <div class="footersponsors">
+                    
+                    <p>
+                        © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
+                        ABE MUSIX corp™ supported by:
+                    </p>
+                    
+                
+                    <!--CAROUSEL BOOTSTRAP-->
+                    <div class="footer__carrusel">
+                        <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div  class="carousel-item active" data-bs-interval= "2000">
+                                    <img  src="../ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
+                                </div>
+                                <div  class="carousel-item" data-bs-interval= "2000">
+                                    <img  src="../ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
+                                </div>
+                                <div class="carousel-item" data-bs-interval= "2000" >
+                                    <img  src="../ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>   
+                <div class="footerlinks">
+                        <a href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-3x" ></i></a>
+                        <a href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-3x" ></i></a>
+                </div>
+            </div>
+        </footer>      
     </div>    
     <!--CDN BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    

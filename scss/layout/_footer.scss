@@ -4,13 +4,30 @@
     text-align: center;
     color: black;
     padding: 20px;
+    &__extra{
+        grid-area: extra;
+    }
+    &__sponsors{
+        grid-area: sponsors;
+    }
+    &__links{
+        grid-area: links;
+    }
+    &__carrusel{
+        display:flex ;
+        flex-direction: column;
+    
+        align-items: center; 
+    }
+}
+
+#logoyt{
+
+    color: red;
 
 }
-.carrusel_footer{
-    
+#logosc{
 
-    display:flex ;
-    flex-direction: column;
-    
-    align-items: center;    
+    color: rgb(255, 123, 0);
+
 }

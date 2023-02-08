@@ -27,3 +27,17 @@
     padding: 10px;
     margin-bottom: 20px;
 }
+
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+
+}
+.extras{
+    color: black ;
+    &:hover{
+        color: $primary;
+    }
+}
+

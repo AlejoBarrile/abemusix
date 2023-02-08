@@ -20,15 +20,17 @@
 
     <body>
         <div class="contenedor">
-            <header class="encabezado">
+            <!--HEADER-->
+            <header class="encabezado    d-flex justify-content-center">
+                <a class="navbar-brand" href="./index.html"><img  class= "logo px-5" src="./ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+                <!-- NAV BAR-->
                 <nav class="navbar navbar-expand-md bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="./index.html"><img  class= "logo" src="./ASSETS/img/ABE LOGO.jpg" alt="LOGO ABE MUSIX" ></a>
+                    <div class="container-fluid p-4">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>   
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
                                 <li class="nav-item" >
                                     <a  class="nav-link" href="./pages/aprende aca.html"><b>APRENDÉ </b></a>
                                 </li>
@@ -36,26 +38,13 @@
                                     <a  class="nav-link" href="./pages/tracks_populares.html"><b>TRACKS </b></a>
                                 </li>
                                 <li class="nav-item" >
-                                    <a  class="nav-link" href="./pages/contactanos.html"><b>CONTÁCTANOS</b></a>
+                                    <a  class="nav-link" href="./pages/contactanos.html"><b>CONTÁCTANOS </b></a>
                                 </li>
                                 <li class="nav-item" >
                                     <a class="nav-link"  href="./pages/sobre_nosotros.html"><b>NOSOTROS</b></a>
                                 </li>
 
-                                <li class="nav-item" >
-                                    <h3 class="promo_header"> Nos podes escuchar en:</h3>
-                                </li>
-                                <li class="animate__animated animate__heartBeat" class="nav-item" >
-                                    <a class="nav-link" href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-4x" ></i></a>
-                                </li>
-                                <li class="animate__animated animate__heartBeat" class="nav-item" >
-                                    <a class="nav-link" href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-4x" ></i></a>
-                                </li>
-                            </ul>
-                                
-                                
-                            
-                            
+                            </ul>   
                         </div>
                     </div>
                 </nav>
@@ -66,6 +55,7 @@
 
         
             <main>
+                <!--SECCION PRINCIPAL-->
                 <section  class="fondoindex" class="principal" >
                     <div class="container">
                     
@@ -83,8 +73,9 @@
                         <h2 id="inscribite_aca" ><a class="inscribite_aca_deco" href="./pages/aprende aca.html#id_form">Inscribite acá!</a></h2>           
                     </div>    
                 </section>
-                
-                    <div class="galeria" class="container">
+                <!--GALERIA CON INFO-->
+                    <div class="galeria">
+                        <!--CARD BOOTSTRAP-->
                         <div class="card" style="width: 18rem;"  >
                             <img class="wow animate__animated animate__fadeInLeft"  src="./ASSETS/img/teamwork.png"    class="card-img-top" alt="TEAMWORK">
                             <div class="card-body">
@@ -95,9 +86,10 @@
                                 </p>
                             </div>
                         </div>
+                        <!--CARD BOOTSTRAP-->
                         <div class="card" style="width: 18rem;">
-                            <img class="wow animate__animated animate__fadeInUp" height= 280px src="./ASSETS/img/creacion.png"    class="card-img-top" alt="Cerebro hecho con notas musicales">
-                            <div class="card-body">
+                            <img class="wow animate__animated animate__fadeInUp" src="./ASSETS/img/creacion.png"    class="card-img-top" alt="Cerebro hecho con notas musicales">
+                            <div class="card-body"> 
                                 <p class="card-text">
                                     ABE MUSIX corp™ está pensada para trabajar en conjunto desde la creación 
                                     hasta la finalización de un track, agilizando el proceso gracias a la especialización
@@ -105,8 +97,7 @@
                                 </p>
                             </div>
                         </div>
-    
-                        
+                        <!--CARD BOOTSTRAP-->
                         <div class="card" style="width: 18rem;">
                             <img class="wow animate__animated animate__fadeInRight" src="./ASSETS/img/global.jpg"    class="card-img-top" alt="GLOBAL">
                             <div class="card-body">
@@ -121,33 +112,52 @@
                             
                         </div>    
                     </div>
-                
-                
-
             </main>
-            
+            <!--FOOTER-->
             <footer class="footer">
-                <p >
-                    © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
-                    ABE MUSIX corp™ supported by:
-                </p> 
-                <div class="carrusel_footer">
-                    <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div  class="carousel-item active" data-bs-interval= "2000">
-                                <img  src="./ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
-                            </div>
-                            <div  class="carousel-item" data-bs-interval= "2000">
-                                <img  src="./ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
-                            </div>
-                            <div class="carousel-item" data-bs-interval= "2000" >
-                                <img  src="./ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
-                            </div>
+                <div class="footergrids">
+                    <!--ESTA LINEA DE "FOOTEREXTRA" LA AGREGUÉ PARA QUE GRIDS ME FUNCIONE CORRECTAMENTE,
+                        PERO NINGÚN LINK TE LLEVA A OTRO SITIO (POR AHORA)-->
+                    <div class="footerextra d-flex flex-column ">
+                        <div class="d-inline">
+                            <a class="extras" href="">Preguntas Frecuentes</a>
+                        </div>
+                        <div class="d-inline">
+                            <a class="extras" href="">Términos y Condiciones</a>
                         </div>
                     </div>
-                </div>    
-    
-    
+
+                    <div class="footersponsors">
+                        
+                        <p>
+                            © 2022 ABE MUSIX corp™, todos los derechos reservados.<br>
+                            ABE MUSIX corp™ supported by:
+                        </p>
+                        
+                    
+                        <!--CAROUSEL BOOTSTRAP-->
+                        <div class="footer__carrusel">
+                            <div   id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div  class="carousel-item active" data-bs-interval= "2000">
+                                        <img  src="./ASSETS/img/arturia.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR ARTURIA">
+                                    </div>
+                                    <div  class="carousel-item" data-bs-interval= "2000">
+                                        <img  src="./ASSETS/img/audiotechnica.jpg" width="150px" height="15px"  class="d-block w-30" alt="SPONSOR AUDIOTECHNICA">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval= "2000" >
+                                        <img  src="./ASSETS/img/pioneer.jpg" width="150px" height="15px" class="d-block w-30" alt="SPONSOR PIONEER">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>   
+                    <div class="footerlinks">
+                            <a href="https://soundcloud.com/abemusix" target="_blank"> <i  id= "logosc" class="fa-brands fa-soundcloud fa-3x" ></i></a>
+                            <a href= "https://www.youtube.com/channel/UCGg0rXvgsRRu0obnUtsh1Cw" target="_blank"> <i  id= "logoyt" class="fa-brands fa-youtube fa-3x" ></i></a>
+                    </div>
+                </div>
             </footer>                
                 
         </div>            
