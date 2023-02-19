@@ -4,9 +4,26 @@
     color: $other;
 
 }
-.img_escuela{
-    width: 640px;
-    height: 400px;  
-    padding-bottom: 50px;
+
+.galeria_aprende{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.aprende_img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.aprende_img:hover{
+            cursor: crosshair;
+            width: 300px;
+            height: 300px;
+            opacity: 1;
+            filter: contrast(120%);
 
 }

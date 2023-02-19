@@ -4,11 +4,14 @@
     text-align: center;
     color: black;
     padding: 20px;
+    margin: 0%;
+    width: 100%;    
     &__extra{
         grid-area: extra;
     }
     &__sponsors{
         grid-area: sponsors;
+
     }
     &__links{
         grid-area: links;
